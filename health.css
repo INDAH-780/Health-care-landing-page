@@ -1,0 +1,174 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('stethoscope.jpg');
+    /*background-image: url(stethoscope.jpg);*/
+    background-position: center;
+    background-size: cover;
+    /*padding-right: 3%;
+    padding-left: 5%;*/
+    box-sizing: border-box;
+    position: relative;
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #2e2e4f;
+    border-bottom: 5px solid rgb(226, 221, 219);
+    align-items: center;
+    height: 70px;
+    
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 50px;
+}
+.header ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    padding-left: -10px;
+   
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.header .logo {
+    width: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right:8px;
+}
+.header h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-right: 460px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 30px;
+}
+.animation{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: -80px;
+    margin-left: 10px;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: azure;
+    animation: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(50, end);
+    animation-fill-mode: forwards;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  .Main .image {
+    display: flex;
+    height: 100%;
+    width: 600px;
+    position: relative;
+    justify-content: flex-end;
+ 
+    margin-left: -210px;
+    margin-top: -70px;
+    
+}
+.Main {
+    position: relative;
+    display: flex;
+    width: 100%;
+
+    padding-top: 100px;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+.Main .image .pic{
+    width: 600px;
+    margin-left: 20px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 400px;
+}
+#btn1 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom,  #2e2e4f 3%,  #2e2e4f 100%);
+
+    border: 1px solid  #2e2e4f;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px  #2e2e4f;
+}
+#btn2 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #cbcbcb 2%, #fff 100%);
+    border: 1px solid #cbcbcb;
+    cursor: pointer;
+    color:  #2e2e4f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #cbcbcb;
+}
+.btn:hover {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+.location{
+    
+    padding: 50px, 20px, 20px, 400px;
+
+    width: 100%;
+}
+.rotate {
+    width: 70px;
+    animation: rotation 2s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
